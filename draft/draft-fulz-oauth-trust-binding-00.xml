@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rfc xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     category="std"
+     ipr="trust200902"
+     docName="draft-fulz-oauth-trust-binding-00"
+     submissionType="IETF">
+  <front>
+    <title>OAuth Trust Binding Extension (OTBE)</title>
+    <author fullname="Matthias Fulz" surname="Fulz">
+      <address>
+        <email>mfulz@olznet.de</email>
+      </address>
+    </author>
+    <date year="2025" month="11" day="27"/>
+    <abstract>
+      <t>
+        This document defines the OAuth Trust Binding Extension (OTBE), a
+        privacy-preserving mechanism that ensures Relying Parties only accept
+        identity assertions from Authorization Servers that the Resource Owner
+        has explicitly authorized. OTBE prevents silent impersonation risks
+        arising from implicit trust in identity namespaces such as email domains.
+      </t>
+    </abstract>
+  </front>
+  <middle>
+    <section title="Introduction">
+      <t>See the Markdown version of this draft for the full text. This XML
+         representation is provided as a starting point for xml2rfc tooling.</t>
+    </section>
+  </middle>
+  <back/>
+</rfc>

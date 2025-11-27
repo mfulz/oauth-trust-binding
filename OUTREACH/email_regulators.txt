@@ -1,0 +1,25 @@
+Subject: Technical Finding: Federated Login Systems Permit Unobservable Identity Impersonation
+
+Dear Supervisory Authority,
+
+I would like to inform you of a systemic issue identified in widely used federated
+login systems (OAuth/OpenID Connect). Current deployments allow Authorization Servers
+to impersonate users across third-party services without the user's knowledge or consent,
+based solely on control of an email domain.
+
+A detailed technical and regulatory analysis is provided here:
+<GITHUB_LINK>
+
+A standardized solution (OAuth Trust Binding Extension, OTBE) has been submitted
+to the IETF as an Internet-Draft:
+<IETF_LINK>
+
+This message is not a complaint against any specific organization, but aims to support
+the development of privacy-preserving identity infrastructure and may be relevant to
+your supervisory mandate (e.g., under GDPR principles of fairness, transparency and
+data protection by design and by default).
+
+I would welcome dialogue if this aligns with your current focus areas.
+
+Kind regards,
+Matthias

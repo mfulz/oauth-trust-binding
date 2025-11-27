@@ -1,0 +1,27 @@
+Subject: New Internet-Draft: OAuth Trust Binding Extension (OTBE)
+
+To: oauth@ietf.org
+
+Dear OAuth WG,
+
+I would like to draw your attention to a newly submitted Internet-Draft:
+
+    Title: OAuth Trust Binding Extension (OTBE)
+    Filename: draft-fulz-oauth-trust-binding-00
+    Link: <IETF_LINK>
+
+The draft addresses a systemic gap in current OAuth and OpenID Connect deployments:
+Authorization Servers can (and often do) assert identities for subjects who never
+created an account with them, solely based on namespace ownership (e.g. email domains).
+This creates silent impersonation risks, centralization concerns, and privacy implications.
+
+OTBE introduces explicit user-controlled Trust Binding Records that allow Relying Parties
+to verify that a Resource Owner has authorized a given AS to authenticate on their behalf.
+
+Supporting material, including a developer guide and a regulatory whitepaper, is available at:
+<GITHUB_LINK>
+
+I welcome feedback, discussion, and potential consideration for WG adoption.
+
+Best regards,
+Matthias

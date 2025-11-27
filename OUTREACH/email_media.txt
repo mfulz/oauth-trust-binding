@@ -1,0 +1,22 @@
+Subject: OAuth draft proposes solution to silent impersonation vulnerability
+
+Hello,
+
+A new Internet-Draft proposes the OAuth Trust Binding Extension (OTBE), addressing a
+subtle but significant issue: Authorization Servers today can assert identities for
+users who never registered with them, solely based on email-domain ownership. This
+allows silent impersonation without user consent across third-party services that
+accept, for example, “Sign in with X”.
+
+Draft:
+<IETF_LINK>
+
+Technical and regulatory background:
+<GITHUB_LINK>
+
+This may be of interest for coverage, as it affects identity systems used by
+hundreds of millions (if not billions) of people and intersects with privacy,
+surveillance exposure, and identity centralization.
+
+Regards,
+Matthias

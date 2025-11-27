@@ -1,0 +1,25 @@
+Subject: Proposal: OAuth Trust Binding Extension — Request for Security Review
+
+Hello,
+
+I am reaching out with a newly published specification proposal:
+OAuth Trust Binding Extension (OTBE).
+
+Draft (IETF Internet-Draft):
+<IETF_LINK>
+
+Repository with additional material (developer guide, regulatory whitepaper):
+<GITHUB_LINK>
+
+OTBE addresses a long-standing but under-recognized issue in federated identity systems:
+implicit trust of Authorization Servers based solely on email-domain control. This creates
+silent impersonation vectors and unilateral identity assertions without explicit user consent.
+
+The proposed extension is minimal, backward-compatible, and fully optional, but significantly
+enhances privacy and reduces impersonation attack surfaces.
+
+Given your organization's role in identity infrastructure, I would greatly value your
+technical review and thoughts.
+
+Best regards,
+Matthias
