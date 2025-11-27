@@ -6,10 +6,10 @@ I am reaching out with a newly published specification proposal:
 OAuth Trust Binding Extension (OTBE).
 
 Draft (IETF Internet-Draft):
-<IETF_LINK>
+https://www.ietf.org/archive/id/draft-fulz-oauth-trust-binding-00.txt
 
 Repository with additional material (developer guide, regulatory whitepaper):
-<GITHUB_LINK>
+https://github.com/mfulz/oauth-trust-binding
 
 OTBE addresses a long-standing but under-recognized issue in federated identity systems:
 implicit trust of Authorization Servers based solely on email-domain control. This creates
